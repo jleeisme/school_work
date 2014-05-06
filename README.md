@@ -4,4 +4,4 @@ Spend the time necessary to read and fully understand what the code in `sort.rb`
 
 Task: Currently, the built-in `Array#sort` method is being used (line 3) to implement the logic for the sort method. As an exercise, instead of leveraging this built-in method, implement your own sort logic such that the resulting output from this ruby script stays the same. See <http://en.wikipedia.org/wiki/Sorting_algorithm> for different sorting algorithms. At a minimum implement [Bubble Sort](http://en.wikipedia.org/wiki/Bubble_sort) and [Merge Sort](http://en.wikipedia.org/wiki/Merge_sort). 
 
-As an extension, benchmark the different implementations versus the built in array.sort. Read about Ruby's benchmark [here](http://www.ruby-doc.org/stdlib-1.9.3/libdoc/benchmark/rdoc/Benchmark.html)
+As an extension, benchmark the different implementations versus the built in array.sort. Read about Ruby's benchmark [here](http://www.ruby-doc.org/stdlib-2.0.0/libdoc/benchmark/rdoc/Benchmark.html)

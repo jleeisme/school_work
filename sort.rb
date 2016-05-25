@@ -1,6 +1,25 @@
 # Sort the array from lowest to highest
 def sort(arr)
-  arr.sort
+  # do the code for every element in the list except the last
+  for index in 0...(arr.length - 1)
+    # takes the first number as the smallest as default
+    index_min = index
+    #looping each number from the present index from the end
+    for inner_index in index..(arr.length - 1)
+      # checks if checked index is smaller than present index, if so will make
+      # the checked index the new index_min
+      if arr[inner_index] < arr[index_min]
+        index_min = inner_index
+      end
+    end
+    # if the index_min is not what is the current index (index that's
+    # being looped) they are swapped
+    if index_min != index
+      # allows to swap two indexes
+      arr[index], arr[index_min] = arr[index_min], arr[index]
+    end
+  end
+    return arr
 end
 
 # Find the maximum 
